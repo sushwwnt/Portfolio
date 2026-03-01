@@ -1,0 +1,171 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #000;
+    color: #e7e9ea
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #111;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+
+section {
+    padding: 40px;
+    margin: 0 auto;
+    border-bottom: 1px solid #2f3336;
+}
+
+.hero {
+    background-color: #111;
+    color: white;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    border: 1px solid #e7e9ea;
+    border-radius: 30px;
+    color: #e7e9ea;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #e7e9ea;
+    color: #000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Skills Section */
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 6px 10px;
+    padding: 8px 16px;
+    border: 1px solid #2f3336;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.skills li:hover {
+    background-color: #111;
+    color: white;
+}
+
+/* Project Section */
+
+.project-card {
+    border: 1px solid #2f3336;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    border-color: #e7e9ea;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #71767b;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+/* Links */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Social Buttons */
+
+.social-links {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.social-links a {
+    padding: 10px 18px;
+    border: 2px solid #111;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+    font-size: 14px;
+}
