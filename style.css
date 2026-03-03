@@ -93,13 +93,14 @@ h1 {
     border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .skills li:hover {
-    background-color: #111;
-    color: white;
-}
+    background-color: #e7e9ea;
+    color: #000;
+    transform: translateY(-4px);
+} 
 
 /* Project Section */
 
@@ -193,7 +194,10 @@ footer {
 }
 
 .about-text p {
-    color: #71767b;
+    color: #c9d1d9;
+    line-height: 1.8;
+    font-size: 15px;
+}
     line-height: 1.8;
     font-size: 15px;
 }
